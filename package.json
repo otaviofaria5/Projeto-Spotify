@@ -1,5 +1,22 @@
 {
-  "dependencies": {
-    "mongodb": "^6.13.0"
-  }
+  "name": "projeto-spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviofaria5/Projeto-Spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/otaviofaria5/Projeto-Spotify/issues"
+  },
+  "homepage": "https://github.com/otaviofaria5/Projeto-Spotify#readme"
 }
